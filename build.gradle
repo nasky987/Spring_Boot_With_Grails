@@ -28,7 +28,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
-	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+	compile('org.grails:grails-gsp-spring-boot:1.0.0')
+	compile('org.grails:grails-validation:2.4.4')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.codehaus.groovy:groovy')
 	compile('org.grails:gorm-hibernate4-spring-boot:1.1.0.RELEASE')
